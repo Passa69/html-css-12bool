@@ -1,0 +1,39 @@
+/* general rules */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    background-color: aqua;
+    min-height: 100px;
+    border: 1px solid white;
+    position: relative;
+}
+
+[class*="col-offset-"] {
+    border: 0;
+}
+
+[class*="little"] {
+    margin-top: 10px;
+    background-color: rgb(133, 216, 10);
+    min-height: 80px;
+    border: 1px solid white;
+}
+
+/* contenitori */
+.container {
+    margin: 50px auto;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+}

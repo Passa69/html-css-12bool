@@ -13,6 +13,11 @@
     position: relative;
 }
 
+/* contenitori */
+.container {
+    margin: 50px auto;
+}
+
 .title {
     position: absolute;
     top: 50%;

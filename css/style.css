@@ -17,6 +17,13 @@
     border: 0;
 }
 
+[class*="little"] {
+    margin-top: 10px;
+    background-color: rgb(133, 216, 10);
+    min-height: 80px;
+    border: 1px solid white;
+}
+
 /* contenitori */
 .container {
     margin: 50px auto;
